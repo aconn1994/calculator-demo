@@ -1,0 +1,62 @@
+.main-card {
+  width: 480px;
+}
+
+mat-card-header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.display {
+  font-size: xx-large;
+  width: 713px;
+  height: 60px;
+  background-color: rgb(126, 175, 125);
+  color: black;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+}
+
+mat-card-content {
+  background-color: rgb(44, 44, 44);
+}
+
+.row {
+  display: flex;
+  justify-content: start;
+}
+
+.number-button {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  font-size: x-large;
+}
+
+.modulate-button {
+  background-color:rgb(127, 127, 127);
+  color: white;
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  font-size: x-large;
+}
+
+.operator-button {
+  background-color: orange;
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  font-size: x-large;
+}
+
+.zero-button {
+  cursor: pointer;
+  width: 240px;
+  height: 120px;
+  font-size: x-large;
+}
